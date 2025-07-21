@@ -1,0 +1,336 @@
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+==============================================================
+
+1024 MB -> MegaBYTES
+
+1000 Mb -> MegaBITS
+
+Byte -> Armazenamento
+
+Bit -> Transmissão
+
+Modem de internet -> Modula e Demodula os sinais de pc (sinal quadrado), sinais de telefone (sinal senoidal)... para haver a conexão à internet.
+
+Servidor -> Componente de armazenamento de informações.
+
+DNS (Domain Name System) -> Busca qual o endereço de IP do site que o cliente está buscando para que possa ser acessado no servidor.
+
+==============================================================
+Domínio: Nome que identifica seu site 
+	-É único.
+	-Pago anualmente ou mensalmente
+	-Vários TLDs
+
+
+Hospedagem: Espaço para armazenar arquivos
+	-Pago mensalmente
+	-Espaço, memória, recursos
+
+URL (Uniform Resource Locator) -> Endereço para ir no servidor específico que está sendo requisitado.
+
+
+Ex.: [(www).{github}."com"/*gustavoguanabara*] -> URL
+
+()-> sub dominio
+{}-> domínio
+""-> TLD
+**-> caminho
+
+==============================================================
+
+HTML -> Trabalha com a parte do CONTEÚDO: Textos, imagens, vídeos, tabelas...
+
+CSS -> Trabalha com a parte do DESIGN: Cores, sombras, tamanhos, posicionamento...
+
+Javascript -> Trabalha com a parte das INTERAÇÕES: Menus, animações, popups, validações...
+
+
+*Conteúdo em HTML*
+
+A maioria das tags tem abertura e fechamento, mas não todas.
+
+<h1> Exemplo de título </h1>
+
+
+<p> Exemplo de parágrafo </p>
+
+//
+"<h1>" "<p>" - Abertura de tag
+"</h1>" "</p>" - Fechamento de tag
+"Exemplo de título" - Conteúdo
+
+
+<img scr="foto.png" alt="Exemplo de foto">
+
+
+//
+"<img ... >" Abertura de tag
+"scr=" "alt=" - Parâmetro
+"foto.png" "Exemplo de Foto" - Valor
+src -> Origem; Está sendo colocada uma imagem com a origem "foto.png"
+alt -> Alternativo; Senão conseguir mostrar a imagem de alguma forma ele vai mostrar "Exemplo de foto"
+
+
+*Estilo em CSS3*
+
+h1 {
+	font-family: Arial;
+	font-size: 20pt;
+	color: blue;
+   }
+
+//
+"'h1'{" - Seletor
+"font-family: Arial;" - declaração
+"pt" - Pontos
+"color" - Propriedade
+"blue" - Valor
+
+
+*Estrutura básica de Documento HTML*
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+|	<head>
+|	|
+|	|	<meta charset="UTF-8">
+|	|	<meta name= "viewport" content="width=device=width,initial-scale=1.0">
+|	|	<title>Document</title>
+|	</head>
+|	<body>
+|	|
+|	|	<h1>Olá, Mundo!</h1>
+|	|
+|	|
+|	</body>
+|
+|
+|
+</html>
+
+
+//
+"<head> </head" -> Área da Configuração
+"<body> </body>" -> Área do Corpo, área onde fica o site
+"meta charset=UTF-8"> - Dá para meu site a compatibilidade com acentuações.
+"<meta name= "viewport" content="width=device=width,initial-scale=1.0">" - Vai ocupar 100% da tela do navegador, vai ser exibido numa escala de 100%; Com duas teclas no VisualCode ele escreve sozinho
+
+==============================================================
+
+Front-end -> Mais interessado com a interatividade do usuário com o site; Vai ter que saber um pouco de photoshop, edição de fotos. Vai ter que interagir bastante com o designer.
+	  -> HTML
+	  -> CSS
+	  -> JavaScript
+
+
+Back-end -> Mais focado na interação do código com o servidor.
+	 -> PHP
+	 -> JavaScript
+	 -> C#
+	 -> Python
+	 -> Grooby
+	 -> Java
+
+==============================================================
+
+<h1> não significa letra grande. <h1> significa TÍTULO de nível 1
+
+<hr> - Linha horizontal
+
+"&lt;" algo "&gt;" -> O comando (entre aspas) faz aparecer o símbolo "<>" na tela do navegador. (lt -> less than; gt -> greater than)
+
+" <!-- --> " -> Colocar comentários (dentro das linhas horizontais)
+
+*Código de Símbolos*
+
+&reg; -> ®
+&copy; -> ©
+&trade; -> ™
+&euro; -> €
+&pound; -> £
+&yen; -> ¥
+&cent; -> ¢
+&delta; -> δ
+&Delta; -> Δ
+&uparrow; &uarr; -> ↑ ↑
+        
+
+*Códigos de Emojis*
+
+"&#x" + o código do emoji. Esse código pode ser pego no emojipedia. Após escolher o emoji é só rolar a tela para baixo até o código, e copiar o que vem depois do "U+"
+
+
+==============================================================
+
+*FAVICONS*
+
+Favicons -> Ícone pequeno que fica na aba do navegador
+
+
+iconarchive.com -> Site para achar Favicon
+
+favicon.cc -> Site para criar Favicon
+
+favicon.io -> Site que pode gerar um texto num ícone, um PNG num ícone ou um Favicon num ícone.
+
+
+-COLOCAR FAVICON
+
+Escolhe uma imagem e salva em .ICO dentro da pasta com o arquivo html.
+
+Para adicionar um Favicon basta digitar (entre head e body):
+
+link:favicon e enter
+
+Apagar o que estiver dentro do parêntes de href. E colocar o local do favicon desejado.
+
+
+==============================================================
+
+Saiba que CSS é FORMA e HTML é SENTIDO. Entenda a diferença e saiba identificar.
+
+Se quiser consultar quais tags estão obsoletas, entre no site da W3C.
+
+==============================================================
+
+*Atalho para inclusão de tag*
+
+- Seleciona o comando que está sem tag escrito no VS. 
+- Aperte ctrl + shift + p + "tag que deseja usar" 
+- Após isso, dê ENTER.
+
+==============================================================
+
+Tag CODE é para deixar a letra monoespaçada. Porém ele não organiza as palavras com identação.
+
+Mas pode-se usar a tag <pre> (tag code fica dentro da pre).
+
+Tag q serve para citações. Dá o sentido de CITAÇÃO na frase desejada.
+
+==============================================================
+
+LISTAS ORDENADAS E NÃO ORDENADAS
+
+OL= Ordered List: Lista que respeita uma ordem, passo a passo (São sequenciais, 123..., abc...)
+
+<ol>
+   <li>Lavar o carro</li>
+   <li>Ir ao mercado</li>
+   <li>Estudar</li>
+</ol>
+
+UL= Unordered List: Lista que apenas lista os itens.
+
+<ul>
+   <li>Carros</li>
+   <li>Navios</li>
+   <li>Submarinos</li>
+</ul>
+
+==============================================================
+
+TABELAS
+
+Usadas para exibir dados que podem ser categorizados em colunas
+
+-<table>: Tag que cria a tabela
+-<tr>: Tag dentro de table que cria uma linha
+-<th>: Tag que é o cabeçalho
+-<td>: Tag onde ficam os dados
+
+<table>
+   <tr>
+      <th>ID:</th>
+      <th>Nome:</th>
+      <th>Profissão:</th>
+   </tr>
+   <tr>
+      <td>1</td>
+      <td>Matheus</td>
+      <td>Programador</td>
+   </tr>
+   <tr>
+      <td>2</td>
+      <td>Alexia</td>
+      <td>Engenharia Civil</td>
+   </tr>
+   <tr>
+      <td>3</td>
+      <td>Josias</td>
+      <td>Reporter</td>
+   </tr>
+</table>
+
+==============================================================
+
+TAG DIV
+
+Utilizada para separar seções
+
+Abre a tag div e escreve o código dentro, ela separará como um "bloco" separado.
+
+TAG FIGURE
+Como se fosse uma div, como se dissesse que ali tem uma imagem, dando semântica a ela
+
+TAG FIGCAPTION
+É a legenda da imagem, fica diretamente relacionada à ela
+
+TAG BLOCKQUOTE
+Serve para quando é referente à citações
+
+
+==============================================================
+
+-FORMS-
+
+Recebe dados do usuário e envia para um servidor
+
+Pode validar dados
+
+Tags + utilizadas: form, label e input
+
+Form: cria o formulário e delimita
+
+Label: Descreve os inputs
+
+Input: Tag que inserimos dados; há vários tipos: number, email, text, etc...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
