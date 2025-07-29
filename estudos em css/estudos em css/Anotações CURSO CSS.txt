@@ -604,6 +604,140 @@ Para isso precisamos de um atributo chamado "orientation" com o valor de "landsc
 
 O código é ativado quando a orientação é alterada.
 
+===============================================================
+
+FLEXBOX
+
+É um valor da propriedade display.
+
+Maneira mis utilizada para acondicionar elementos em um container.
+
+Diversas regras dentro do flex.
+
+Ele deve ser considerado no elemento pai, e os elementos filhos serão movimentados.
+
+Os elementos filhos também podem ter regras específicas.
+
+   - APLICANDO
+      Vamos precisar de uma estrutura base.
+
+      Consiste em um container de elementos filhos dentro do container.
+
+      Colocamos a regra display com o valor de flex no container, e agora os elementos estão seguindo o fluxo do flex.
+
+      Com flex, todos os elementos se comportam parecido com os elementos inline.
+
+.
+
+(ELEMENTOS PAI)
+
+-FLEX DIRECTION-
+Podemos mudar o comportamento inline de flex (chamado de row).
+
+Alterando o flex-direction para column, teremos agora os itens se comportando como elementos de bloco.
+
+O valor padrão de direction é row.
+
+.
+
+-FLEX WRAP-
+
+O flex tenta colocar todos os elementos na mesma linha por padrão.
+
+Porém há situações que queremos x elementos por linha.
+
+Para isso acontecer, devemos aplicar a regra flex-wrap com o valor de wrap.
+
+Agora as linhas respeitam a largura dos elementos.
+
+.
+
+-JUSTIFY CONTENT-
+
+Com ele é possível mudar como o conteúdo é poscicionado no eixo horinzontal.
+
+Temos alguns valores interessantes nesta propriedade.
+
+Por exemplo: centralizar os elementos na horizontal, basta colocar o valor de center.
+
+.
+
+-ALIGN ITEMS-
+
+Este nos permite mudar os elementos na vertical.
+
+A propriedade tem vários valores, como o center.
+
+.
+
+-GAP-
+É uma regra que serve para colocar espaços entre os elementos que estão no flex.
+
+Nós especificamos amedida em px, por exemplo.
+
+E este valor é adicionado entre cada um dos elementos.
+
+.
+
+(ELEMENTOS FILHO [O CONTAINER PRECISAR SER DECLARADO COMO FLEX TAMBÉM])
+
+-ORDER- 
+
+Podemos mudar a ordem dos elementos.
+
+É utilizada nos elementos filhos.
+
+Agora começamos com as regras que são aplicadas aos elementos filhos, não ao elemento pai.
+
+.
+
+-GROW-
+
+Com esta regra podemos mudar a proporção de um ou mais elementos filhos.
+
+Nota: A width precisa estar sem valor, como automática.
+
+Exemplo: Se colocar grow como 2, o elemento vai crescer 2x mais que os outros quando estiver se adaptando no container.
+
+.
+
+-BASIS-
+
+Configura a largura base do elemento.
+
+Podemos trabalhar com basis e grow juntas.
+
+Grow vai preencher toda a largura que Basis vai deixar vazia.
+
+.
+
+-SHRINK-
+
+É o oposto do Grow.
+
+Quando utilizamos precisamos manter o tamanho dos outros elementos, então o elemento do shrink diminui o seu tamanho para manter o dos outros.
+
+Usamos esta regra em conjunto de Basis e Grow.
+
+.
+
+-FLEX SHORTHAND-
+
+Utilizando apenas flex conseguimos configurar grow, shrink e basis.
+
+Colocamos os valores nesta ordem também.
+
+Desta maneira= flex: 2 1 100px.
+
+Isso dá ao elemento: grow= 2, shrink= 1 e basis= 100px.
+
+.
+
+-ALIGN SELF-
+
+Esta regra alinha um elemento diferente dos demais.
+
+Podemos centralizar um elemento enquanto os outros seguem a regra de alinhamento do container.
 
 TAGS
 
