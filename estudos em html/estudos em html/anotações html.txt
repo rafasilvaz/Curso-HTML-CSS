@@ -244,5 +244,121 @@ Se tentar enviar o form sem um valor no campo com required, receberemos um alert
 
 Isso é um tipo de validação HMTL
 
+==============================================================
+
+-HTML SEMÂNTICO-
+
+Tags de HTML que dão significado ao elemento.
+
+Ajuda a estruturar melhor o nosso site.
+
+Contribui diretamente para o SEO da nossa página.
+
+Exemplos de elementos não semãnticos: div, span.
+
+Exemplos de elementos semânticos: main, section, article.
 
 
+- Estrutura da Página com semântica -
+
+Ao adicionar elementos semânticos podemos estruturar nossa página.
+
+Veja a imagem "html semantico".
+
+Cada seção do site tem uma tag que faz sentido ao elemento.
+
+Isso até facilita a manutenção do nosso projeto.
+
+.
+
+-SECTION
+
+A tag section define uma seção no documento.
+
+Geralmente um agrupamento por categorias, exemplo: seção dos produtos, seção de contato.
+
+Provavelmente um elemento que será utilizado muitas vezes em um projeto.
+
+.
+
+-ARTICLE
+
+A tag article é utilizada para elementos informativos.
+
+Podemos aplicar em: post de blog, comentários, card de produtos.
+
+O conteúdo é individual, não fazendo relação com outro elemento ou article.
+
+.
+
+-HEADER
+
+A tag header é utilizada para um conteúdo introdução ou links de navegação.
+
+Geralmente tem elementos como: headings, logo, informação do autor do post/página.
+
+Podemos ter mais de um header por página.
+
+.
+
+-FOOTER
+
+A tag footer é utilizada como rodapé de página, última seção do site.
+
+Mas também pode ser utilizada em outras tags, que precisem deste último elemento.
+
+Geralmente contém: informações sobre a empresa, copyright, dados de contato, sitemap.
+
+.
+
+-NAV
+
+A tag nav é utilizada para demarcar blocos de navegação.
+
+Ou seja, é esperado que haja links dentro desta tag.
+
+E nem todo link precisa estar numa nav.
+
+Costumeiramente são blocos grandes de link, exemplo: Barra de navegação principal.
+
+.
+
+-ASIDE
+
+A tag aside é utilizada para criar conteúdos ao lado doconteúdo principal.
+
+O que fica dentro de aside precisa estar indiretamente relacionado ao conteúdo principal.
+
+Exemplo: Temos uma lista de produtos sendo exibida, em side, temos os filtros e ordenação.
+
+.
+
+-FIGURE e FIGCAPTION
+
+As tags figure e figcaption são utilzadas em conjunto.
+
+Figure éo elemento pai, e sua função é exibir alguma imagem na página.
+
+A imagem é inserida pela tag img.
+
+E figcaption serve de legenda para a imagem.
+
+.
+
+-MAIN
+
+A tag Main é a que contém o conteúdo principal da página.
+
+Não podemos utilizar mais de uma tag main por página.
+
+O conteúdo de main deve ser único, e não repetido ao longo da página.
+
+.
+
+-MARK
+
+A tag mark deve conter um texto dentro. ("substitui" no caso o span)
+
+Ela define um conteúdo que precisa estar em evidência.
+
+Gerando uma importância maior para o mesmo.
